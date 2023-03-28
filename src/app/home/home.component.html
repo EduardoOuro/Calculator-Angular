@@ -1,0 +1,11 @@
+<!-- <p-button type="button" (click)="visibleSidebar1 = true" icon="pi pi-arrow-right"></p-button>
+<p-button type="button" (click)="visibleSidebar2 = true" icon="pi pi-arrow-left"></p-button>
+<p-button type="button" (click)="visibleSidebar3 = true" icon="pi pi-arrow-down"></p-button>
+<p-button type="button" (click)="visibleSidebar4 = true" icon="pi pi-arrow-up"></p-button> -->
+<p-button type="button" (click)="visibleSidebar5 = true">Lista de atividades</p-button>
+<div class="container-home">
+    <p-sidebar [(visible)]="visibleSidebar5" [fullScreen]="true" [baseZIndex]="10000">
+        <p-button type="button" (click)="returnTicTacToe()" icon="pi pi-th-large">tic-tac-toe</p-button>
+        <p-button type="button" (click)="returnCalculator()" icon="pi pi-th-large">calculator</p-button>
+    </p-sidebar>
+    </div>
