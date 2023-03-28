@@ -1,4 +1,4 @@
-# ProjetoEstudoAngular
+# ProjetoEstudoAngular - Rotas, parametro em components (Calculator e Tic-tac-toe)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
 
